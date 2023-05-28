@@ -224,7 +224,7 @@ function startTimer() {
 function whack(event) {
   // TODO: Write your code here.
   console.log("whack!")
-  updateScore(15);
+  updateScore();
   return points;
 }
 
@@ -277,7 +277,7 @@ function startGame(setEventListeners){
   showUp();
   clearScore();
   setEventListeners();
-  startTimer(1000);
+  startTimer();
   return "game started";
 }
 
