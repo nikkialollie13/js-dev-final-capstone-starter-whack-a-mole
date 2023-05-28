@@ -41,11 +41,11 @@ function randomInteger(min, max) {
  */
 function setDelay(difficulty) {
  if (difficulty === "easy") {
-  returns 1500
+  return 1500
  } else if (difficulty === "normal") {
-   returns 1000
+   return 1000
  } else if ( difficulty === "hard") {
-  returns 856 (600 and 1200);
+  return 856 (600 and 1200);
  }
 }
   // TODO: Write your code here.
@@ -223,7 +223,8 @@ function startTimer() {
 */
 function whack(event) {
   // TODO: Write your code here.
-  call updateScore()
+  console.log("whack!")
+  updateScore(15);
   return points;
 }
 
@@ -232,11 +233,14 @@ function whack(event) {
 * Adds the 'click' event listeners to the moles. See the instructions
 * for an example on how to set event listeners using a for loop.
 */
-function setEventListeners(){
+function setEventListeners() {
   // TODO: Write your code here
-moles.forEach((moles) => moles.addEventListener("click", whack));
+moles.forEach(
+  mole =>mole.addEventListener('click' , whack)
+);
   return moles;
 }
+setEventListeners();
 
 /**
 *
@@ -268,12 +272,12 @@ function stopGame(){
 * is clicked.
 *
 */
-function startGame(){
+function startGame(setEventListeners){
   setDuration(10);
   showUp();
   clearScore();
   setEventListeners();
-  startTimer();
+  startTimer(1000);
   return "game started";
 }
 
