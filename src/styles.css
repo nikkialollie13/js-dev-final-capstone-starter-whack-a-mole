@@ -1,6 +1,6 @@
 html {
-  /*background: url('./assets/background.png') no-repeat center center fixed;*/
-  background-image: url("cemetary.png");
+  /*background: url('./assets/cemetary.jpg') no-repeat center center fixed;*/
+  background-image: url("https://github.com/nikkialollie13/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/cemetary.jpg");
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -64,8 +64,8 @@ h2 {
 }
 
 .mole {
-  /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url("zombie.png");
+  /*background:url('./assets/zombie.png') bottom center no-repeat;*/
+  background:url("zombie.pnghttps://github.com/nikkialollie13/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/zombie.png");
   background-size: 40%;
   position: absolute;
   top: 100%;
