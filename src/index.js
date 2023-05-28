@@ -21,7 +21,7 @@ let difficulty = "hard";
  *
  */
 function randomInteger(min, max) {
-  // return Math.floor(Math.random() * (max - min + 1)) + min;
+return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 /**
@@ -45,7 +45,7 @@ function setDelay(difficulty) {
  } else if (difficulty === "normal") {
    return 1000
  } else {
-return randomInteger(600 and 1200);
+return randomInteger(600,1200);
  }
 }
   // TODO: Write your code here.
