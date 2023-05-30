@@ -27,16 +27,16 @@ h2 {
 
 #start {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .button {
-    top: 200px;
-    padding-left: 245px;
+    top: 190px;
+    padding-left: 235px;
     margin: auto;
     position: absolute;
       height: 40px;
-      width: 500px;
+      width: 200px;
 }
 
 #timer {
