@@ -29,8 +29,10 @@ h2 {
     text-align: center;
     font-size: 30px;
 }
-.button {
-  al
+
+button {
+  width: 10px;
+  height: 50px;
 }
 
 #timer {
